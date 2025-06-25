@@ -12,7 +12,6 @@ namespace UI
     public class PopupGameplay : BasePopup
     {
         [SerializeField] private Button btnHome, btnReplay;
-        [SerializeField] private Text txtLevel, txtMoves;
 
         private void Awake()
         {
@@ -22,24 +21,19 @@ namespace UI
                 {
                     PopupCtrl.Instance.HideAllPopup();
                     PopupCtrl.Instance.GetPopupByType<PopupHome>().ShowImmediately(true);
+                    SceneManager.LoadSceneAsync("MainMenu");
                     CircleOutline.Instance.ScaleOut();
                 });
             });
             
-            btnHome.onClick.AddListener(() =>
+            btnReplay.onClick.AddListener(() =>
             {
-
+                CircleOutline.Instance.ScaleIn(() =>
+                {
+                    SceneManager.LoadScene("Gameplay");
+                    CircleOutline.Instance.ScaleOut();
+                });
             });
-        }
-
-        public void UpdateLevel(int level)
-        {
-            txtLevel.text = level.ToString();
-        }
-
-        public void UpdateMoves(int current, int max)
-        {
-            txtMoves.text = $"Moves:{current}/{max}";
         }
     }
 }

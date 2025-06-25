@@ -13,15 +13,12 @@ namespace UI
         {
             btnPlay.onClick.AddListener(() =>
             {
-                /*CircleOutline.Instance.ScaleIn(() =>
+                CircleOutline.Instance.ScaleIn(() =>
                 {
                     HideImmediately(true);
+                    PopupCtrl.Instance.GetPopupByType<PopupGameplay>().ShowImmediately(false);
                     SceneManager.LoadSceneAsync($"Gameplay");
-                });*/
-                
-                HideImmediately(true);
-                PopupCtrl.Instance.GetPopupByType<PopupLevel>().ShowImmediately(false);
-                //Loader.LoadScene(Loader.Scene.Gameplay);
+                });
             });
 
             btnGuid.onClick.AddListener(() =>

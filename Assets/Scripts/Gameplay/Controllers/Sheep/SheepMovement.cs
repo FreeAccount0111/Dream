@@ -1,10 +1,12 @@
 using System.Collections;
+using Gameplay.Events;
 using UnityEngine;
 
 namespace Gameplay.Controllers.Sheep
 {
     public class SheepMovement : MonoBehaviour
     {
+        [SerializeField] private SheepAnimator sheepAnimator;
         [SerializeField] private float speedJump;
         [SerializeField] private float speedRun;
         [SerializeField] private GameObject shadow;
@@ -17,6 +19,7 @@ namespace Gameplay.Controllers.Sheep
         private RaycastHit _hit;
         [SerializeField] private LayerMask fenceLayer;
         private bool _isJumping;
+        private bool _isJumped;
 
         private Coroutine _coroutine;
 
@@ -26,7 +29,7 @@ namespace Gameplay.Controllers.Sheep
                 return;
             else
             {
-                transform.Translate(Vector3.right*2*Time.deltaTime);
+                transform.Translate(Vector3.right * speedRun * Time.deltaTime);
             }
             
             if (CheckFence())
@@ -45,12 +48,30 @@ namespace Gameplay.Controllers.Sheep
 
             return false;
         }
+
+        public void JumpScared(Vector2 posTarget)
+        {
+            if (_coroutine != null)
+                StopCoroutine(_coroutine);
+            
+            SetupJumpScared(posTarget);
+            _coroutine = StartCoroutine(JumpingCoroutine());
+        }
         
         private void SetupMovingJump()
         {
             _vectorA = transform.position;
-            _vectorB = new Vector3(0, _vectorA.y + 0.5f, _vectorA.z);
+            _vectorB = new Vector3(0, _vectorA.y + 0.75f, _vectorA.z);
             _vectorC = new Vector3(-_vectorA.x, _vectorA.y, _vectorA.z);
+        }
+
+        private void SetupJumpScared(Vector2 pos)
+        {
+            _vectorA = transform.position;
+            _vectorC = new Vector3(pos.x, pos.y, pos.y);
+            _vectorB = Vector3.Lerp(_vectorA, _vectorC, 0.5f) + Vector3.up * 0.75f;
+
+            _isJumped = true;
         }
 
         IEnumerator JumpingCoroutine()
@@ -59,13 +80,16 @@ namespace Gameplay.Controllers.Sheep
             _x2 = Mathf.Abs(_vectorA.x - _vectorC.x) > 0.01f ? _vectorB.x : _vectorB.z; _y2 = _vectorB.y;
             _x3 = Mathf.Abs(_vectorA.x - _vectorC.x) > 0.01f ? _vectorC.x : _vectorC.z; _y3 = _vectorC.y;
             
-            float amount = 0;
-            _isJumping = true;
-            
             float[] coefficients = FindParabolaEquation(new Vector2(_x1,_y1),
                 new Vector2(_x2,_y2),
                 new Vector2(_x3,_y3));
+
+            if (coefficients[2] is float.NaN)
+                yield break;
             
+            float amount = 0;
+            _isJumping = true;
+            sheepAnimator.PlayAnimationJump();
             while (amount < 1)
             {
                 amount = amount + Time.deltaTime * speedJump > 1 ? 1 : amount + Time.deltaTime * speedJump;
@@ -75,12 +99,21 @@ namespace Gameplay.Controllers.Sheep
                 float y = coefficients[0] * alpha * alpha + coefficients[1] * alpha + coefficients[2];
                 transform.position = new Vector3(x, y, z);
                 shadow.transform.position = Vector2.Lerp(_vectorA, _vectorC, amount);
+
+                if (!_isJumped && amount > 0.5f)
+                {
+                    _isJumped = true;
+                    GameEvent.RaiseCountSheep();
+                }
+                
                 yield return null;
             }
 
             transform.position = _vectorC;
             shadow.transform.position = _vectorC;
             _isJumping = false;
+            _isJumped = false;
+            sheepAnimator.PlayAnimationIdle();
         }
         
         float[] FindParabolaEquation(Vector2 A, Vector2 B, Vector2 C)

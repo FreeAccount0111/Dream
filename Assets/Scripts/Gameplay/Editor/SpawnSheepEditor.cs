@@ -1,16 +1,17 @@
 using Gameplay.Controllers;
+using Gameplay.Manager;
 using UnityEditor;
 using UnityEngine;
 
 namespace Gameplay.Editor
 {
-    [CustomEditor(typeof(SpawnSheepController))]
+    [CustomEditor(typeof(SheepManager))]
     public class SpawnSheepEditor : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
-            SpawnSheepController spawner = (SpawnSheepController)target;
+            SheepManager spawner = (SheepManager)target;
             
             if (GUILayout.Button("Spawn Sheep"))
             {

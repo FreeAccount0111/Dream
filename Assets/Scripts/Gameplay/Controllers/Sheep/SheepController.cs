@@ -12,5 +12,10 @@ namespace Gameplay.Controllers.Sheep
         {
             
         }
+
+        public void Scared(Vector2 pos)
+        {
+            sheepMovement.JumpScared(pos);
+        }
     }
 }

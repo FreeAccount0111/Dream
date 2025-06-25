@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1871900527348406925}
   - component: {fileID: 8173074940627934630}
   - component: {fileID: 5754539387087137195}
+  - component: {fileID: 6050442664228046586}
   m_Layer: 10
   m_Name: Sheep
   m_TagString: Untagged
@@ -128,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sheepAnimator: {fileID: 1871900527348406925}
-  sheepMovement: {fileID: 0}
+  sheepMovement: {fileID: 8173074940627934630}
 --- !u!114 &1871900527348406925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,8 +155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57be8f6c062a9824596a9549b87887dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedJump: 1.5
-  speedRun: 1
+  sheepAnimator: {fileID: 1871900527348406925}
+  speedJump: 2
+  speedRun: 2
   shadow: {fileID: 7014885056022608784}
   fenceLayer:
     serializedVersion: 2
@@ -197,6 +199,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.000000003100302, y: 0.026007222}
   m_Size: {x: 0.64, y: 0.1704681}
   m_Direction: 1
+--- !u!114 &6050442664228046586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985530594809392417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40832b640559d604da7995f5f3506720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amountX: 10
 --- !u!1 &7014885056022608784
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +287,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 0.49803922}
   m_FlipX: 0

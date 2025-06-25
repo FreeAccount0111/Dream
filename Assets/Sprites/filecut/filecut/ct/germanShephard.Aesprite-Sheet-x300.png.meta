@@ -1,0 +1,2522 @@
+fileFormatVersion: 2
+guid: 894c1e94daafe6148990fa6760e4f740
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2938
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89294d607ba914c4a86cff31c12c2286
+      internalID: -1392205399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2938
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65092d3cc6bf3654d8f2793556201966
+      internalID: 1642996926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2938
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6979535b6f2030428db44e5ca7d5546
+      internalID: 918177972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_3
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2938
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48da85f0a315f649b344bb09eb42d14
+      internalID: 133210639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_4
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2938
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56114e9a7a2573a4cb1e7b8213528383
+      internalID: 357489019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_5
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2938
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791d5d80b8d2e874d99c9d42e6980e8a
+      internalID: -269494921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2746
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650e4610de8d1bc4594db227e7005daa
+      internalID: -1054460572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2746
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa42fd7c7aa5fb45ac96d399649dde5
+      internalID: 1184968517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2746
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf65df8c05490b442ac8fa82bd20b71d
+      internalID: 1255621421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_9
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 2746
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19770543b8cfce84886c926a9ab69c74
+      internalID: 729490039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_10
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2746
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaf5b878de0079469e0a12512e04e9e
+      internalID: 1094566813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_11
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2746
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f82e9bfca8ee348a42c0c22b683bb1
+      internalID: 2002568751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2554
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b268ceec78e8eb49aba153153755a3c
+      internalID: -1459746079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2554
+        width: 121
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63b4546866fc43429b92ade495d57bf
+      internalID: -34354655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_14
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2554
+        width: 121
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a5ca76ffb33f429c69b738d1ad877
+      internalID: 1341535856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_15
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2554
+        width: 118
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb840ef385be224ab48759e5f0d8b8b
+      internalID: -827736963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_16
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2554
+        width: 115
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1875ea72811fbbb44bca6703fc694aae
+      internalID: 920813998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2554
+        width: 115
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09e451192fe4a24b973c510860f1a19
+      internalID: -1323697152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_18
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2554
+        width: 115
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524bc364e3992b4993a13e84ee5d03b
+      internalID: 322710892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_19
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2554
+        width: 112
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b9c2264dbe634fbb4841c1cb7a40c
+      internalID: -1280887778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_20
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2554
+        width: 106
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf50f07c005e7b498767af2bf0ec98f
+      internalID: 1007838995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_21
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 2554
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab340c182a0c30248b7417e52fa3e370
+      internalID: -1008522502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b03665fc9348564486716d74a916f6b
+      internalID: 1791257713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_23
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd33e9015c147043b93d1729046e253
+      internalID: 1408644889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef76b4c8da3a5f4c9815128796adbc8
+      internalID: 1322770433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_25
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f002571acb30e418b3c495335ea0b8
+      internalID: 236353098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_26
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82326e743aeb7b242bd307e7d28f5b9e
+      internalID: 1192582228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_27
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243c9c1f00d00f649b34a395dfe94d2e
+      internalID: 247411794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_28
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdfba36b4be05443b48b608f6b71fc0
+      internalID: -2023845895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_29
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebbf44d795ff7549872d7fa5c697949
+      internalID: -658188195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_30
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 2362
+        width: 109
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446d3972253323c41a4c548361f2a3d0
+      internalID: 1112318869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2170
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99be8d76af573fd4fbe7cde1d46e818f
+      internalID: -1269717423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 2170
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7484231016cb1224ca97cf72494acc8f
+      internalID: -996784238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_33
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2170
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a327b651db52d841b1ae9a335f42cc7
+      internalID: -1273847607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_34
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 2170
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e53369af9f5dbc4694e5322e552d41e
+      internalID: 1505195135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_35
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2170
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8073ab0dd091a4e8572aa03f726889
+      internalID: 1500527565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1978
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c493932e2d0547048b9d8e6d5af1a9c1
+      internalID: 1650234387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_37
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1981
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be0ecc912649e644816d4f9ae2fb062
+      internalID: -1316581689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_38
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1978
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb4d8e7ceeabab4f93d353cf787abee
+      internalID: 183866651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_39
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1978
+        width: 127
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0378958199abba744bae025113261589
+      internalID: -128280356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_40
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1786
+        width: 127
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff51ece8cdf639b46b813a270e1f6af3
+      internalID: -1483259471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1786
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7fcaa8f91ada54fa9c5e0a6898857a
+      internalID: -1035489671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_42
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1786
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bf496b21dcd1648ab18d8bbb0923f6
+      internalID: -210330843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_43
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1786
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e346976dbcb9e3b4dbc63056728b24ee
+      internalID: -351662461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_44
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1786
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7488ac48caddf7547852bc958bca1028
+      internalID: -1650813852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_45
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1786
+        width: 124
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854e09630edc0147a609ba5cd20a8e9
+      internalID: 962801547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_46
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1786
+        width: 124
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3f31dc27ff3284596c910357f17612
+      internalID: -1484952205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_47
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1786
+        width: 124
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a67012580ff23649b45dce5ea509d49
+      internalID: -2101355182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_48
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1786
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dba34aed5c6e2d4980a02c4969231f4
+      internalID: 401490977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_49
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1786
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb63d58d68f00469d6c485fd3e5dcb
+      internalID: -999724836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_50
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 1786
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c8060d070ff047805140e89ce011d
+      internalID: -389875366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_51
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 1786
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcbe703243f0c648bb3355e82ccd6fb
+      internalID: -1608259573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_52
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1786
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6fc9d022816da41bf7e345276ceca7
+      internalID: 907877846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_53
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 1786
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc352f3c381a85439250a7d37c44dff
+      internalID: -622338350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1594
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeec7a6d6b5f2f84a854f03318d929c6
+      internalID: 1603862775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_55
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1594
+        width: 124
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec1df6faafdcbf44ab41a796ba520df
+      internalID: 2061353003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_56
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1594
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4211dd3af48f3849b0cecec264e2189
+      internalID: 1700310921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_57
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1594
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c35abd2ba4994091b1d82d83feb4b
+      internalID: 581810548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1402
+        width: 124
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e77fad70fad44eb46403e10c520df
+      internalID: 1308492489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_59
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1402
+        width: 124
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2842d1282fba2e446b8c181304ceb5ea
+      internalID: -852076378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_60
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1210
+        width: 124
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fc9893fd136a94db90126a86e3de72
+      internalID: 1866938250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_61
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1210
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40611a553de97a04798d4fb05ee4d2b5
+      internalID: 223822937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_62
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1210
+        width: 127
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dafdc652fc42b47a85389049852971
+      internalID: 1632614888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_63
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1210
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853b38397a623164f9c4ca5497d132ef
+      internalID: 289252005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_64
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1018
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a4bcb7338fd00458499445f5ed7346
+      internalID: -2125143827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_65
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1018
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f907df6f97c7a84c84de0ff814f91bd
+      internalID: 430672382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_66
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1018
+        width: 127
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ddc2be7b49dc34cbf998a770e24b72
+      internalID: -799082840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_67
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1018
+        width: 121
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def994ac20465994b88cdb0856121f3d
+      internalID: 571395665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_68
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 826
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f064b70830494ea2794256e43a2e8
+      internalID: 2071675840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 826
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1465bb8593980d4a8a9aad31db6c1ee
+      internalID: -1823313287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_70
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 826
+        width: 124
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5227c356396a145b085ac632c48929
+      internalID: 903233234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_71
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 826
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270f7e5b6e6c9a345bb033b32e0a40c3
+      internalID: -1412458089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_72
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 826
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518d06408b1f1d4e9f64276b6a735a7
+      internalID: -676964579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_73
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 826
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00290347db3bb1245aacbc3c9ecdae46
+      internalID: -1424629915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_74
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 826
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fbf42ca7885454fa4e55c3c5813537
+      internalID: -1870175051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_75
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 826
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7333a0c973f628439dfe837bd436c3b
+      internalID: -1260154036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_76
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 634
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f393d8d7ee118874592ba7f0ba135b44
+      internalID: -1602286057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 634
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1676a24b22c2c094cb484053716fdb7f
+      internalID: 1692678820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_78
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 634
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05aa11b3b5fe5045b97f87a72c750f6
+      internalID: 1189041273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_79
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 634
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d8b5c3f665d1b4fa53a1fbc879f111
+      internalID: 624624708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_80
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 634
+        width: 127
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9c1cd2dc9b50e47a516d543dbd0830
+      internalID: 389770497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_81
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 634
+        width: 130
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c296b5d205c06ef4ba6dd640c722e903
+      internalID: -1246478057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_82
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 634
+        width: 130
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8266828ec9cdf5440ba1b4a1d56fcd49
+      internalID: -892951047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_83
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 634
+        width: 130
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ed542ff074f0c4fbfb8b3ddc307b8a
+      internalID: 1926458529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_84
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 442
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0de0f5ff0f490640930e5255220c02c
+      internalID: 2075265909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_85
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 442
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193a640d2331843438c125671955d986
+      internalID: 1694656049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_86
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 442
+        width: 139
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb8b915c7cab44cbd36a6d7494e63e
+      internalID: -2016394581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_87
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 442
+        width: 130
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a14b7e30059c4f4fbdfcc9c930439ad
+      internalID: -257693511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_88
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 442
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7bc1d60ce12ef438fa4e99fc70a361
+      internalID: 1548905425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_89
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 250
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3196688798904489c91e166b8b6444
+      internalID: 790068245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_90
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 250
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feec04a7327d764bb60a77d6c8264f8
+      internalID: -603865050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_91
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 250
+        width: 115
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a1934e41edea458c42da25423ff60
+      internalID: 1984450882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_92
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 250
+        width: 127
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a719fbb30dda0ea41b58c4b3d6d479bc
+      internalID: 1263811490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_93
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 250
+        width: 124
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45827ac822e381f48bbe1d41a9ebfef1
+      internalID: -390151420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_94
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 250
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40878f5f6599e84cb1d65c358a5bcc2
+      internalID: 1064061994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_95
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 58
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0281787a26a5f574890c9aae3f735954
+      internalID: 945339049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_96
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 58
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4983e4b10d0e0cb478af68e2b4f70332
+      internalID: 1470661676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_97
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 58
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9113544caffce794eae171e481f8b4b3
+      internalID: -1181115167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_98
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 58
+        width: 142
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6323d16d64141a448ab5a406df13831
+      internalID: -459083898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_99
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 58
+        width: 145
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6254948baed2b994b8bd2bc81896daa9
+      internalID: -1867582798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_100
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 58
+        width: 127
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f07b36bc691d4c8bd252722013238
+      internalID: -1320863820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_101
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 58
+        width: 127
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3247403070e50745841775bc92a5986
+      internalID: 178919055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_102
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 58
+        width: 127
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b283369722ac1f443b10e6b370a480fd
+      internalID: 1413897557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: germanShephard.Aesprite-Sheet-x300_103
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 58
+        width: 127
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92280eec38ef62143b88c94b01c5928d
+      internalID: 167887193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 882d4f1d482202343a2392bd434162d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      germanShephard.Aesprite-Sheet-x300_0: -1392205399
+      germanShephard.Aesprite-Sheet-x300_1: 1642996926
+      germanShephard.Aesprite-Sheet-x300_10: 1094566813
+      germanShephard.Aesprite-Sheet-x300_100: -1320863820
+      germanShephard.Aesprite-Sheet-x300_101: 178919055
+      germanShephard.Aesprite-Sheet-x300_102: 1413897557
+      germanShephard.Aesprite-Sheet-x300_103: 167887193
+      germanShephard.Aesprite-Sheet-x300_11: 2002568751
+      germanShephard.Aesprite-Sheet-x300_12: -1459746079
+      germanShephard.Aesprite-Sheet-x300_13: -34354655
+      germanShephard.Aesprite-Sheet-x300_14: 1341535856
+      germanShephard.Aesprite-Sheet-x300_15: -827736963
+      germanShephard.Aesprite-Sheet-x300_16: 920813998
+      germanShephard.Aesprite-Sheet-x300_17: -1323697152
+      germanShephard.Aesprite-Sheet-x300_18: 322710892
+      germanShephard.Aesprite-Sheet-x300_19: -1280887778
+      germanShephard.Aesprite-Sheet-x300_2: 918177972
+      germanShephard.Aesprite-Sheet-x300_20: 1007838995
+      germanShephard.Aesprite-Sheet-x300_21: -1008522502
+      germanShephard.Aesprite-Sheet-x300_22: 1791257713
+      germanShephard.Aesprite-Sheet-x300_23: 1408644889
+      germanShephard.Aesprite-Sheet-x300_24: 1322770433
+      germanShephard.Aesprite-Sheet-x300_25: 236353098
+      germanShephard.Aesprite-Sheet-x300_26: 1192582228
+      germanShephard.Aesprite-Sheet-x300_27: 247411794
+      germanShephard.Aesprite-Sheet-x300_28: -2023845895
+      germanShephard.Aesprite-Sheet-x300_29: -658188195
+      germanShephard.Aesprite-Sheet-x300_3: 133210639
+      germanShephard.Aesprite-Sheet-x300_30: 1112318869
+      germanShephard.Aesprite-Sheet-x300_31: -1269717423
+      germanShephard.Aesprite-Sheet-x300_32: -996784238
+      germanShephard.Aesprite-Sheet-x300_33: -1273847607
+      germanShephard.Aesprite-Sheet-x300_34: 1505195135
+      germanShephard.Aesprite-Sheet-x300_35: 1500527565
+      germanShephard.Aesprite-Sheet-x300_36: 1650234387
+      germanShephard.Aesprite-Sheet-x300_37: -1316581689
+      germanShephard.Aesprite-Sheet-x300_38: 183866651
+      germanShephard.Aesprite-Sheet-x300_39: -128280356
+      germanShephard.Aesprite-Sheet-x300_4: 357489019
+      germanShephard.Aesprite-Sheet-x300_40: -1483259471
+      germanShephard.Aesprite-Sheet-x300_41: -1035489671
+      germanShephard.Aesprite-Sheet-x300_42: -210330843
+      germanShephard.Aesprite-Sheet-x300_43: -351662461
+      germanShephard.Aesprite-Sheet-x300_44: -1650813852
+      germanShephard.Aesprite-Sheet-x300_45: 962801547
+      germanShephard.Aesprite-Sheet-x300_46: -1484952205
+      germanShephard.Aesprite-Sheet-x300_47: -2101355182
+      germanShephard.Aesprite-Sheet-x300_48: 401490977
+      germanShephard.Aesprite-Sheet-x300_49: -999724836
+      germanShephard.Aesprite-Sheet-x300_5: -269494921
+      germanShephard.Aesprite-Sheet-x300_50: -389875366
+      germanShephard.Aesprite-Sheet-x300_51: -1608259573
+      germanShephard.Aesprite-Sheet-x300_52: 907877846
+      germanShephard.Aesprite-Sheet-x300_53: -622338350
+      germanShephard.Aesprite-Sheet-x300_54: 1603862775
+      germanShephard.Aesprite-Sheet-x300_55: 2061353003
+      germanShephard.Aesprite-Sheet-x300_56: 1700310921
+      germanShephard.Aesprite-Sheet-x300_57: 581810548
+      germanShephard.Aesprite-Sheet-x300_58: 1308492489
+      germanShephard.Aesprite-Sheet-x300_59: -852076378
+      germanShephard.Aesprite-Sheet-x300_6: -1054460572
+      germanShephard.Aesprite-Sheet-x300_60: 1866938250
+      germanShephard.Aesprite-Sheet-x300_61: 223822937
+      germanShephard.Aesprite-Sheet-x300_62: 1632614888
+      germanShephard.Aesprite-Sheet-x300_63: 289252005
+      germanShephard.Aesprite-Sheet-x300_64: -2125143827
+      germanShephard.Aesprite-Sheet-x300_65: 430672382
+      germanShephard.Aesprite-Sheet-x300_66: -799082840
+      germanShephard.Aesprite-Sheet-x300_67: 571395665
+      germanShephard.Aesprite-Sheet-x300_68: 2071675840
+      germanShephard.Aesprite-Sheet-x300_69: -1823313287
+      germanShephard.Aesprite-Sheet-x300_7: 1184968517
+      germanShephard.Aesprite-Sheet-x300_70: 903233234
+      germanShephard.Aesprite-Sheet-x300_71: -1412458089
+      germanShephard.Aesprite-Sheet-x300_72: -676964579
+      germanShephard.Aesprite-Sheet-x300_73: -1424629915
+      germanShephard.Aesprite-Sheet-x300_74: -1870175051
+      germanShephard.Aesprite-Sheet-x300_75: -1260154036
+      germanShephard.Aesprite-Sheet-x300_76: -1602286057
+      germanShephard.Aesprite-Sheet-x300_77: 1692678820
+      germanShephard.Aesprite-Sheet-x300_78: 1189041273
+      germanShephard.Aesprite-Sheet-x300_79: 624624708
+      germanShephard.Aesprite-Sheet-x300_8: 1255621421
+      germanShephard.Aesprite-Sheet-x300_80: 389770497
+      germanShephard.Aesprite-Sheet-x300_81: -1246478057
+      germanShephard.Aesprite-Sheet-x300_82: -892951047
+      germanShephard.Aesprite-Sheet-x300_83: 1926458529
+      germanShephard.Aesprite-Sheet-x300_84: 2075265909
+      germanShephard.Aesprite-Sheet-x300_85: 1694656049
+      germanShephard.Aesprite-Sheet-x300_86: -2016394581
+      germanShephard.Aesprite-Sheet-x300_87: -257693511
+      germanShephard.Aesprite-Sheet-x300_88: 1548905425
+      germanShephard.Aesprite-Sheet-x300_89: 790068245
+      germanShephard.Aesprite-Sheet-x300_9: 729490039
+      germanShephard.Aesprite-Sheet-x300_90: -603865050
+      germanShephard.Aesprite-Sheet-x300_91: 1984450882
+      germanShephard.Aesprite-Sheet-x300_92: 1263811490
+      germanShephard.Aesprite-Sheet-x300_93: -390151420
+      germanShephard.Aesprite-Sheet-x300_94: 1064061994
+      germanShephard.Aesprite-Sheet-x300_95: 945339049
+      germanShephard.Aesprite-Sheet-x300_96: 1470661676
+      germanShephard.Aesprite-Sheet-x300_97: -1181115167
+      germanShephard.Aesprite-Sheet-x300_98: -459083898
+      germanShephard.Aesprite-Sheet-x300_99: -1867582798
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
