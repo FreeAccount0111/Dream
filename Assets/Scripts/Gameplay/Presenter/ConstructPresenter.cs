@@ -1,3 +1,4 @@
+using System;
 using Gameplay.Model;
 using UI.Gameplay;
 using UnityEngine;
@@ -18,6 +19,11 @@ namespace Gameplay.Presenter
             _playerModel = playerModel;
 
             _gameplayPresenter = new GameplayPresenter(gameplayView, _playerModel);
+        }
+
+        private void OnDestroy()
+        {
+            _gameplayPresenter.Dispose();
         }
     }
 }
